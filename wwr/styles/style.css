@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&display=swap');
 
-/* Reset */
 body, h1, h2, h4, p {
     margin: 0;
     padding: 0;
 }
 
-/* General Body Styling */
 body {
     background-color: #086F98;
     font-family: 'Righteous', Arial, sans-serif;
@@ -14,19 +12,17 @@ body {
     color: #e9e5c7;
 }
 
-/* Header Styling */
 header {
     background-color: rgba(20, 30, 13, 0.7);
     padding: 15px;
     text-align: center;
 }
 
-/* Navigation Bar Styling */
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    position: static; /* Horizontal layout */
+    position: static;
     width: 100%;
     background-color: #011837;
     padding: 15px;
@@ -47,7 +43,6 @@ nav a.active {
     color: #D2C107;
 }
 
-/* Hero Section Styling */
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -73,7 +68,7 @@ nav a.active {
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Add a translucent background */
+    background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
     padding: 20px;
     border-radius: 8px;
@@ -89,7 +84,6 @@ nav a.active {
     font-size: 1.2em;
 }
 
-/* Button Styling */
 .button-box a.book, .button-box a.join {
     background-color: #011837;
     color: #e9e5c7;
@@ -105,7 +99,6 @@ nav a.active {
     color: #ffffff;
 }
 
-/* Home Grid Section */
 .home-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -116,7 +109,7 @@ nav a.active {
 }
 
 .rivers-card, .camping-card, .rapids-card {
-    margin: 0; /* Remove extra margins */
+    margin: 0; 
     text-align: center;
 }
 
@@ -131,7 +124,7 @@ nav a.active {
     padding-top: 10px;
 }
 
-/* Message Box Styling */
+
 .msg {
     background-color: #e9e5c7;
     line-height: 1.5em;
@@ -142,13 +135,12 @@ nav a.active {
     border-radius: 8px;
 }
 
-/.msg p {
+.msg p {
     padding-bottom: 15px;
     font-size: 0.9em;
     color: #011837;
 }
 
-/* Footer Styling */
 footer {
     display: flex;
     flex-direction: column;
