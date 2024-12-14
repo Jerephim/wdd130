@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Build Guide</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
-        <h1>Build Guide</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="parts.html">Parts Selection</a>
-            <a href="guide.html">Build Guide</a>
-        </nav>
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+
+            <div class="logo" style="margin-right: 15px;">
+                <img src="images/switchLogo.jpg" alt="Switch Logo" style="width: 100px; height: 100px;">
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="parts.html">Parts Selection</a>
+                <a href="guide.html">Build Guide</a>
+            </nav>
+
+        </div>
+        <h1 style="text-align: center;">Build Guide</h1>
     </header>
 
     <main>
+        <section id="hero">
+            <img src="images/keyboardHeroImage.jpg" alt="Hero Keyboard" style="width: 100%; height: auto;">
+        </section>
+
         <section>
             <h2>Step 1: Prepare the Components</h2>
             <p>Before starting assembly, make sure all your components are ready. If you plan to solder the switches, test the PCB first using software like VIA or QMK to ensure all connections are functional. If using a hot-swappable PCB, you can skip this step and test the switches after installation.</p>
