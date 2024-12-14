@@ -6,10 +6,10 @@ body, h1, h2, h4, p {
 }
 
 body {
-    background-color: #bb9167; /* Orange from the image */
-    font-family: 'Mulish', Arial, sans-serif; /* Primary font updated to Mulish */
+    background-color: #bb9167; 
+    font-family: 'Mulish', Arial, sans-serif; 
     font-size: 22px;
-    color: #312112; /* Updated contrast color */
+    color: #312112; 
 }
 
 header {
@@ -24,7 +24,7 @@ nav {
     justify-content: space-around;
     position: static;
     width: 100%;
-    background-color: #000000; /* Black for strong contrast */
+    background-color: #000000; 
     padding: 15px;
     padding-right: 65px;
 }
@@ -33,16 +33,16 @@ nav a {
     color: #f57c00; /* Orange for links */
     text-decoration: none;
     padding: 10px 20px;
-    font-family: 'Oswald', 'Helvetica', sans-serif; /* Secondary font updated to Oswald */
+    font-family: 'Oswald', 'Helvetica', sans-serif; 
 }
 
 nav a:hover {
-    color: #ffffff; /* White on hover */
+    color: #ffffff; 
     background-color: #333333;
 }
 
 nav a.active {
-    color: #ffcc00; /* Gold highlight for active link */
+    color: #ffcc00; 
 }
 
 main {
@@ -56,12 +56,12 @@ section {
 }
 
 h1, h2 {
-    font-family: 'Oswald', 'Helvetica', sans-serif; /* Updated to Oswald for headers */
+    font-family: 'Oswald', 'Helvetica', sans-serif; 
     color: #ffffff;
 }
 
 p {
-    font-family: 'Mulish', 'Helvetica', sans-serif; /* Updated to Mulish for paragraphs */
+    font-family: 'Mulish', 'Helvetica', sans-serif; 
     line-height: 1.6em;
 }
 
@@ -81,25 +81,25 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #b6e0e0; /* Updated footer color */
+    background-color: #c2bfbf; 
     padding: 25px;
     margin-top: 50px;
 }
 
 footer a {
-    color: #000000; /* Black text for contrast */
+    color: #000000; 
     text-decoration: none;
 }
 
 footer a:hover {
     text-decoration: underline;
-    color: #ffffff; /* White on hover */
+    color: #ffffff; 
 }
 
-/* Responsive Design for Smaller Screens */
+
 @media screen and (max-width: 768px) {
     nav {
-        flex-direction: column; /* Stack navigation links */
+        flex-direction: column; 
     }
 
     nav a {
