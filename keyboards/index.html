@@ -16,6 +16,7 @@
                 <a href="index.html">Home</a>
                 <a href="parts.html">Parts Selection</a>
                 <a href="guide.html">Build Guide</a>
+                <a href="contactus.html">Contact Us</a>
             </nav>
         </div>
         <h1 style="text-align: center;">Keyboard Klickers</h1>
@@ -54,7 +55,24 @@
     </main>
 
     <footer>
-        <p><a href="site-plan.html">plan for site</a></p>
+        <p>Keyboard Klickers &copy; <span id="year"></span> - Jordan Johnson</p>
+        <p><a href="site-plan.html">Site Plan</a> | <a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="Facebook icon" class="social-icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="Instagram icon" class="social-icon">
+            </a>
+            <a href="https://x.com" target="_blank">
+                <img src="images/x.png" alt="X icon" class="social-icon">
+            </a>
+        </div>
     </footer>
+    
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    
 </body>
 </html>
